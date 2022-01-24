@@ -1,7 +1,7 @@
 /* fonts link  */
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-   
+ /* custom css    */
 .package-focus{
     margin-top: 0px;
     padding: 20px;
@@ -9,13 +9,16 @@
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.251);
 }
 .package-btn{
-    width: 100%;
     border-radius: 20px;
 }
 .top-focus{
     top: -10px;
     right : 30px;
     background-color: #ec3333
+}
+.FAQ {
+    display: flex;
+    align-items: center;
 }
  .bonus-part{
      background-color: #61a734;
@@ -25,7 +28,7 @@
      right: 10px;
  }
  /* media quary  */
- @media only screen and (max-width: 700px){
+ @media only screen and (max-width: 600px){
      .slider-custom h1{
          font-size: 15px;
          margin: 5px;
